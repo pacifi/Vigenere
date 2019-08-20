@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3662a018-94ea-4e52-9317-2dbc8bc0a27f" name="Default Changelist" comment="" />
+    <list default="true" id="3662a018-94ea-4e52-9317-2dbc8bc0a27f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Vigenere/pe/edu/cat/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Vigenere/pe/edu/cat/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Vigenere/pe/edu/cat/utils/Vigenere.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Vigenere/pe/edu/cat/utils/Vigenere.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pe/edu/cat/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pe/edu/cat/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pe/edu/cat/utils/Vigenere.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pe/edu/cat/utils/Vigenere.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,10 +77,22 @@
       <option name="presentableId" value="Default" />
       <updated>1565663506715</updated>
       <workItem from="1565663512705" duration="15588000" />
+      <workItem from="1566270685451" duration="2733000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

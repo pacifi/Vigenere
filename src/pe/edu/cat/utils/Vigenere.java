@@ -44,10 +44,11 @@ public class Vigenere {
             cifrado[conta] = this.matriz[i][j];
         }
         this.resultado = cifrado;
-        System.out.println("======Cifrado========");
-        System.out.println(this.mensaje);
-        System.out.println(this.clave);
-        System.out.println(cifrado);
+
+        System.out.println("Su mensaje cifrado es  ");
+        System.out.println("=====================");
+        System.out.println(this.resultado);
+        System.out.println("=====================");
 
     }
 
@@ -79,13 +80,13 @@ public class Vigenere {
         for (int j = 0; j < this.mensaje.length; j++) {
             int indiceClave = retornarIndiceAbc(abc, this.clave[j]);
             char[] vectorClave = generaVectorClave(matriz, indiceClave);
-            decifrado[j] = abc[retornaIndiceCombinado(vectorClave,this.mensaje[j])];
+            decifrado[j] = abc[retornaIndiceCombinado(vectorClave, this.mensaje[j])];
         }
-        System.out.println(this.mensaje);
-        System.out.println(this.clave);
+
+        System.out.println("su mensaje descifrado es:");
+        System.out.println("=====================");
         System.out.println(decifrado);
-
-
+        System.out.println("=====================");
     }
 
     public int retornaIndiceCombinado(char[] vectorClave, char caracter) {
